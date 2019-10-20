@@ -2,9 +2,7 @@ package com.prorecek.catfacts.database
 
 import com.prorecek.catfacts.entity.CatFact
 import com.prorecek.catfacts.service.CatFactService
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
-import kotlinx.coroutines.withContext
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
@@ -35,4 +33,3 @@ class CatFactDatabase {
         }
     }
 }
-
