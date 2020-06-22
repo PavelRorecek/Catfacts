@@ -1,4 +1,4 @@
-package com.prorecek.catfacts
+package com.prorecek.catfacts.presentation
 
 import android.graphics.drawable.Drawable
 import android.view.MotionEvent

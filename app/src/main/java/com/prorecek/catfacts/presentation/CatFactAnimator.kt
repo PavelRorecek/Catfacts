@@ -1,4 +1,4 @@
-package com.prorecek.catfacts
+package com.prorecek.catfacts.presentation
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -18,12 +18,7 @@ class CatFactAnimator(
 ) {
 
     private val progressBarAnimator = ObjectAnimator
-        .ofInt(
-            progressBar,
-            "progress",
-            0,
-            100
-        )
+        .ofInt(progressBar, "progress", 0, 100)
         .apply {
             duration = refreshInterval.toLong()
             interpolator = LinearInterpolator()
@@ -66,5 +61,4 @@ class CatFactAnimator(
     fun stop() {
         animatorSet.cancel()
     }
-
 }
