@@ -5,6 +5,6 @@ Simple app that shows cat facts. The app uses Retrofit with [cat facts API](http
 Purpose of this project was to get my hands on:
 - Android app architecture
 - AndroidViewModel
-- LiveData
+- StateFlow
 - ObjectAnimator
 - Retrofit library
